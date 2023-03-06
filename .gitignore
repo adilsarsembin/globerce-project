@@ -1,1 +1,4 @@
 /venv
+/globerce_project/.env
+/globerce_project/__pycache__
+/main/__pycache__

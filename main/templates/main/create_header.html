@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>
+        Create header
+    </title>
+{% endblock  %}
+
+{% block content %}
+    <form method="POST" action="">
+        {% csrf_token %}
+        <label>Title: </label>
+        <input type="text" name="title" ></input>
+        <button type="submit">Add to headers</button>
+    </form>
+{% endblock  %}
